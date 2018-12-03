@@ -11,3 +11,6 @@ from day02 import checksum
 # Day 2
 d2p1 = checksum.solve_part1('day02/input')
 print(d2p1)
+
+d2p2 = checksum.solve_part2('day02/input')
+print(d2p2)
