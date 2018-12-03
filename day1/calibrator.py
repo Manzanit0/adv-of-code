@@ -41,6 +41,3 @@ def find_frequency(path):
     values_s = read_file(path)
     values_i = convert_to_i(values_s)
     return find_repeated(values_i)
-
-
-print(find_frequency('input.txt'))
